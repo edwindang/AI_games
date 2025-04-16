@@ -1,4 +1,5 @@
 import TicTacToe from "@/components/tic-tac-toe"
+import TestHome from "@/components/TestHome"
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <p className="text-center text-gray-600 mb-8">
           Play against different AI opponents, from random moves to unbeatable Minimax algorithm
         </p>
-        <TicTacToe />
+        <TestHome />
       </div>
     </main>
   )
